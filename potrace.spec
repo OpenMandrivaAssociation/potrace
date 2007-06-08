@@ -1,6 +1,6 @@
 %define name    potrace
-%define version 1.7
-%define release 3mdk
+%define version 1.8
+%define release %mkrel 1
 
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		%{name}
