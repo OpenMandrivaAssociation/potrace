@@ -10,6 +10,7 @@ License:	GPL
 Group:		Graphics
 URL:		http://potrace.sourceforge.net/
 Source0:	http://potrace.sourceforge.net/download/%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	zlib-devel
 Provides:	fonttracer
 
