@@ -1,11 +1,10 @@
 %define name    potrace
 %define version 1.8
-%define release %mkrel 1
 
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	%mkrel 2
 License:	GPL
 Group:		Graphics
 URL:		http://potrace.sourceforge.net/
