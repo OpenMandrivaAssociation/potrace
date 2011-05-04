@@ -4,7 +4,7 @@
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPLv2
 Group:		Graphics
 URL:		http://potrace.sourceforge.net/
