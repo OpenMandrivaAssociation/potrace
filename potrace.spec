@@ -2,14 +2,13 @@
 %define version 1.8
 
 Summary:	Utility for transforming a bitmap into a scalable image
-Name:		%{name}
-Version:	%{version}
-Release:	%mkrel 7
+Name:		potrace
+Version:	1.9
+Release:	%mkrel 1
 License:	GPLv2
 Group:		Graphics
 URL:		http://potrace.sourceforge.net/
-Source0:	http://potrace.sourceforge.net/download/%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:	http://potrace.sourceforge.net/download/%{name}-%{version}.tar.gz
 Buildrequires:	zlib-devel
 Provides:	fonttracer
 
