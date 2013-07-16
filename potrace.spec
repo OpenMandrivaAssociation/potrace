@@ -1,10 +1,7 @@
-%define name	potrace
-%define version 1.8
-
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		potrace
-Version:	1.9
-Release:	%mkrel 3
+Version:	1.10
+Release:	1
 License:	GPLv2
 Group:		Graphics
 URL:		http://potrace.sourceforge.net/
@@ -47,7 +44,11 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Thu May 12 2011 Sandro Cazzaniga <kharec@mandriva.org> 1.9-1mdv2011.0
+* Wed Nov 16 2011 Alexander Khrukin <akhrukin@mandriva.org> 1.10-1
++ Revision: 731011
+- version bump to 1.10
+
+* Thu May 12 2011 Sandro Cazzaniga <kharec@mandriva.org> 1.9-1
 + Revision: 673944
 - update to 1.9
 
@@ -75,7 +76,7 @@ rm -rf $RPM_BUILD_ROOT
 + Revision: 179256
 - rebuild
 
-  + Olivier Blin <oblin@mandriva.com>
+  + Olivier Blin <blino@mandriva.org>
     - restore BuildRoot
 
   + Thierry Vignaud <tv@mandriva.org>
@@ -84,27 +85,4 @@ rm -rf $RPM_BUILD_ROOT
 * Fri Jun 08 2007 Adam Williamson <awilliamson@mandriva.org> 1.8-1mdv2008.0
 + Revision: 37054
 - new release 1.8; rebuild for new era
-
-
-* Sun Jan 01 2006 Mandriva Linux Team <http://www.mandrivaexpert.com/> 1.7-3mdk
-- Rebuild
-
-* Wed Aug 10 2005 Abel Cheung <deaddog@mandriva.org> 1.7-2mdk
-- Rebuild
-
-* Mon Mar 07 2005 Lenny Cartier <lenny@mandrakesoft.com> 1.7-1mdk
-- 1.7
-
-* Mon Dec 27 2004 Abel Cheung <deaddog@mandrake.org> 1.5-3mdk
-- Provides "fonttracer" (autotrace has same function)
-
-* Sat Dec 11 2004 Abel Cheung <deaddog@mandrake.org> 1.5-2mdk
-- Fix file permission
-
-* Fri Dec 10 2004 Abel Cheung <deaddog@mandrake.org> 1.5-1mdk
-- New version
-- Doesn't need ncompress now
-
-* Tue Jun 22 2004 Blaise Tramier <meles@free.fr> 1.4-1mdk
-- first mdk package.
 
