@@ -1,11 +1,11 @@
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		potrace
-Version:	1.10
-Release:	11
+Version:	1.15
+Release:	1
 License:	GPLv2
 Group:		Graphics
 Url:		http://potrace.sourceforge.net/
-Source0:	http://potrace.sourceforge.net/download/%{name}-%{version}.tar.gz
+Source0:	http://potrace.sourceforge.net/download/%{version}/potrace-%{version}.tar.gz
 Buildrequires:	pkgconfig(zlib)
 Provides:	fonttracer
 
@@ -25,7 +25,7 @@ but smooth. It can then be rendered at any resolution.
 chmod -R go+rX .
 
 %build
-%configure2_5x --enable-a4
+%configure --enable-a4
 %make
 
 %install
@@ -33,6 +33,6 @@ chmod -R go+rX .
 
 %files
 %doc AUTHORS COPYING ChangeLog README NEWS
+%doc %{_docdir}/%{name}/placement.pdf
 %{_bindir}/*
 %{_mandir}/man1/*
-
