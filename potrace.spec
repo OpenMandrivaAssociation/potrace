@@ -1,6 +1,8 @@
 %define major	0
 %define libname	%mklibname %{name} %{major}
 %define devname	%mklibname %{name} -d
+# lto causes problems
+%define _disable_lto %nil
 
 
 Summary:	Utility for transforming a bitmap into a scalable image
