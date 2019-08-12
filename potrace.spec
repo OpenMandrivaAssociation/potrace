@@ -55,6 +55,9 @@ will use libpotrace.
 chmod -R go+rX .
 
 %build
+%ifarch znver1
+export CC=gcc
+%endif
 %configure \
 	--with-libpotrace \
 	--disable-static
