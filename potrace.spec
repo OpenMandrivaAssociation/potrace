@@ -8,7 +8,7 @@
 Summary:	Utility for transforming a bitmap into a scalable image
 Name:		potrace
 Version:	1.16
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		Graphics/Utilities
 URL:		http://potrace.sourceforge.net/
