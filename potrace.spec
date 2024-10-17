@@ -11,7 +11,7 @@ Version:	1.16
 Release:	2
 License:	GPLv2
 Group:		Graphics/Utilities
-URL:		http://potrace.sourceforge.net/
+URL:		https://potrace.sourceforge.net/
 Source0:	http://potrace.sourceforge.net/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(zlib)
 Provides:	fonttracer
